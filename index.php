@@ -11,7 +11,9 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "Hello world";
+        include 'functions.php';
+        echo "Hello world <br>";
+        echo doShit();
         ?>
     </body>
 </html>
